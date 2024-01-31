@@ -96,16 +96,46 @@ extract_def() {
             ARITY = a[2]
         }
     
-        builtins["string()"] = 1
-        builtins["integer()"] = 1
-        builtins["pos_integer()"] = 1
-        builtins["float()"] = 1
-        builtins["boolean()"] = 1
-        builtins["term()"] = 1
-        builtins["fun()"] = 1
+        builtins["any()"] = 1
+        builtins["arity()"] = 1
         builtins["atom()"] = 1
+        builtins["binary()"] = 1
+        builtins["bitstring()"] = 1
+        builtins["boolean()"] = 1
+        builtins["byte()"] = 1
         builtins["char()"] = 1
+        builtins["char()"] = 1
+        builtins["dynamic()"] = 1
+        builtins["float()"] = 1
+        builtins["fun()"] = 1
+        builtins["function()"] = 1
+        builtins["identifier()"] = 1
+        builtins["integer()"] = 1
         builtins["iodata()"] = 1
+        builtins["iolist()"] = 1
+        builtins["list()"] = 1
+        builtins["map()"] = 1
+        builtins["maybe_improper_list()"] = 1
+        builtins["mfa()"] = 1
+        builtins["module()"] = 1
+        builtins["neg_integer()"] = 1
+        builtins["nil()"] = 1
+        builtins["no_return()"] = 1
+        builtins["node()"] = 1
+        builtins["non_neg_integer()"] = 1
+        builtins["none()"] = 1
+        builtins["nonempty_binary()"] = 1
+        builtins["nonempty_bitstring()"] = 1
+        builtins["nonempty_list()"] = 1
+        builtins["nonempty_string()"] = 1
+        builtins["number()"] = 1
+        builtins["pid()"] = 1
+        builtins["port()"] = 1
+        builtins["pos_integer()"] = 1
+        builtins["reference()"] = 1
+        builtins["string()"] = 1
+        builtins["term()"] = 1
+        builtins["timeout()"] = 1
     
     }
     
