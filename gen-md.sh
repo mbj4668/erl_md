@@ -150,6 +150,10 @@ extract_def() {
        getline; next;
     }
 
+    /%.*erlfmt:ignore/ {
+        next;
+    }
+
     print_comments == 1 && /^%%/ {
         sub("^%+", "");
         sub("^(\\s)+", "");
